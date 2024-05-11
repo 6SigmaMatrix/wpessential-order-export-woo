@@ -1,0 +1,39 @@
+{
+	"name"        : "wpessential/wpessential-order-export-for-woocommercec",
+	"version"     : "4.0",
+	"type"        : "library",
+	"description" : "WPEssential Order Export for WooCommerce used to export the WooCommerce orders with all details. It has the option to export the order from a selectable date range and order status base.",
+	"keywords"    : [
+		"wpessential",
+		"woocommerce"
+	],
+	"homepage"    : "https://wpessential.org/",
+	"readme"      : "README.md",
+	"license"     : [
+		"LGPL-2.1-only",
+		"GPL-3.0-or-later"
+	],
+	"authors"     : [
+		{
+			"name"     : "WPEssential",
+			"email"    : "wordpress.essential@gmail.com",
+			"homepage" : "https://wpessential.org/",
+			"role"     : "Owner"
+		},
+		{
+			"name"     : "6 Sigma Matrix",
+			"email"    : "6sigmamatrix@gmail.com",
+			"homepage" : "https://6sigmamatrix.com/",
+			"role"     : "Owner"
+		}
+	],
+	"require"     : {
+		"php"                                      : ">=7.4",
+		"wpessential/wpessential-require-notifier" : "^1.0"
+	},
+	"autoload"    : {
+		"psr-4" : {
+			"WPEssential\\" : "inc/"
+		}
+	}
+}
