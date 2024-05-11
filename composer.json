@@ -1,6 +1,6 @@
 {
-	"name"        : "wpessential/wpessential-order-export-for-woocommercec",
-	"version"     : "4.0",
+	"name"    : "wpessential/wpessential-order-export-woo",
+	"version" : "1.0",
 	"type"        : "library",
 	"description" : "WPEssential Order Export for WooCommerce used to export the WooCommerce orders with all details. It has the option to export the order from a selectable date range and order status base.",
 	"keywords"    : [
